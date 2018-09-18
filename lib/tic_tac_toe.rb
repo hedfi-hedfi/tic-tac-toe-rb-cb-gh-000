@@ -24,6 +24,7 @@ end
 def player_move(board, position, token)
   board[position] = token
 end
+<<<<<<< HEAD
 
 def position_taken?(board, position)
   return board[position] == "X" || board[position] == "O"
@@ -118,3 +119,4 @@ def play(board)
   end
 
 end
+
